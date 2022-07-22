@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/database.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <link rel="shortcut icon" type="image/x-icon"
+    href="https://alunos.kenzie.com.br/accounts/1/files/11/download?verifier=ESsDDItziPzfW2yyg8UxOUZtHqSQBJdFuHWKh9e4" />
+    <title>WEARTAKE</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div>
+            <figure>
+                <a href="./index.html">
+                    <img src="./img/logo.png" alt="Logo Weartake">
+                </a>
+            </figure>
+            <nav>
+                <a class="focoMenuNavegacao">Todos</a>
+                <a>Acessórios</a>
+                <a>Calçados</a>
+                <a>Camisetas</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container-loja">
+
+            <ul class="lista-produtos">
+                <!-- <li class="produto-descricao">
+                    <figure>
+                        <img src="./img/camiseta_preta.svg" alt="">
+                    </figure>
+                    <div>
+                        <span class="categoria-produto">Camisetas</span>
+                        <h2>Lightweight Jacket</h2>
+                        <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                        <p class="preco-item">R$ 100,00</p>
+                        <button class="adicionar-carrinho-botao">Adicionar ao carrinho</button>
+                    </div>
+                </li>
+                <li class="produto-descricao">
+                    <figure>
+                        <img src="./img/camiseta_preta.svg" alt="">
+                    </figure>
+                    <div>
+                        <span class="categoria-produto">Camisetas</span>
+                        <h2>Lightweight Jacket</h2>
+                        <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                        <p class="preco-item">R$ 100,00</p>
+                        <button class="adicionar-carrinho-botao">Adicionar ao carrinho</button>
+                    </div>
+                </li>
+                <li class="produto-descricao">
+                    <figure>
+                        <img src="./img/camiseta_preta.svg" alt="">
+                    </figure>
+                    <div>
+                        <span class="categoria-produto">Camisetas</span>
+                        <h2>Lightweight Jacket</h2>
+                        <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                        <p class="preco-item">R$ 100,00</p>
+                        <button class="adicionar-carrinho-botao">Adicionar ao carrinho</button>
+                    </div>
+                </li>
+            </ul>
+            <ul class="lista-produtos">
+                <li class="produto-descricao">
+                    <figure>
+                        <img src="./img/camiseta_preta.svg" alt="">
+                    </figure>
+                    <div>
+                        <span class="categoria-produto">Camisetas</span>
+                        <h2>Lightweight Jacket</h2>
+                        <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                        <p class="preco-item">R$ 100,00</p>
+                        <button class="adicionar-carrinho-botao">Adicionar ao carrinho</button>
+                    </div>
+                </li>
+                <li class="produto-descricao">
+                    <figure>
+                        <img src="./img/camiseta_preta.svg" alt="">
+                    </figure>
+                    <div>
+                        <span class="categoria-produto">Camisetas</span>
+                        <h2>Lightweight Jacket</h2>
+                        <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                        <p class="preco-item">R$ 100,00</p>
+                        <button class="adicionar-carrinho-botao">Adicionar ao carrinho</button>
+                    </div>
+                </li>
+                <li class="produto-descricao">
+                    <figure>
+                        <img src="./img/camiseta_preta.svg" alt="">
+                    </figure>
+                    <div>
+                        <span class="categoria-produto">Camisetas</span>
+                        <h2>Lightweight Jacket</h2>
+                        <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                        <p class="preco-item">R$ 100,00</p>
+                        <button class="adicionar-carrinho-botao">Adicionar ao carrinho</button>
+                    </div>
+                </li>           -->
+            </ul>
+        </section>
+
+        <aside class="container-lateral">
+            <section>
+                <input placeholder="Digite aqui sua pesquisa" type="text">
+                <button class="pesquisar-botao">Pesquisar</button>
+
+            </section>
+            
+            <div>
+                <h2>Carrinho de Compras</h2>
+                
+                <ul class="carrinho-itens">
+                    <div class="carrinho-vazio">
+                        <h3>Carrinho Vazio</h3>
+                        <p>Adicione itens</p>
+                    </div>
+                    <!-- <li class="produto-carrinho">
+                        <figure>
+                            <img src="./img/camiseta_preta.svg" alt="">
+                        </figure>
+                        <div>
+                            <h3>Lightweight Jacket</h3>
+                            <p>R$ 100,00</p>
+                            <button class="carrinho-botao">Remover produto</button>
+                        </div>
+                    </li>
+                    <li class="produto-carrinho">
+                        <figure>
+                            <img src="./img/camiseta_preta.svg" alt="">
+                        </figure>
+                        <div>
+                            <h3>Lightweight Jacket</h3>
+                            <p>R$ 100,00</p>
+                            <button class="carrinho-botao">Remover produto</button>
+                        </div>
+                    </li>
+                    <li class="produto-carrinho">
+                        <figure>
+                            <img src="./img/camiseta_preta.svg" alt="">
+                        </figure>
+                        <div>
+                            <h3>Lightweight Jacket</h3>
+                            <p>R$ 100,00</p>
+                            <button class="carrinho-botao">Remover produto</button>
+                        </div>
+                    </li>
+                    <li class="produto-carrinho">
+                        <figure>
+                            <img src="./img/camiseta_preta.svg" alt="">
+                        </figure>
+                        <div>
+                            <h3>Lightweight Jacket</h3>
+                            <p>R$ 100,00</p>
+                            <button class="carrinho-botao">Remover produto</button>
+                        </div>
+                    </li>
+                    <li class="produto-carrinho">
+                        <figure>
+                            <img src="./img/camiseta_preta.svg" alt="">
+                        </figure>
+                        <div>
+                            <h3>Lightweight Jacket</h3>
+                            <p>R$ 100,00</p>
+                            <button class="carrinho-botao">Remover produto</button>
+                        </div>
+                    </li>
+                    <li class="produto-carrinho">
+                        <figure>
+                            <img src="./img/camiseta_preta.svg" alt="">
+                        </figure>
+                        <div>
+                            <h3>Lightweight Jacket</h3>
+                            <p>R$ 100,00</p>
+                            <button class="carrinho-botao">Remover produto</button>
+                        </div>
+                    </li>
+                    <li class="produto-carrinho">
+                        <figure>
+                            <img src="./img/camiseta_preta.svg" alt="">
+                        </figure>
+                        <div>
+                            <h3>Lightweight Jacket</h3>
+                            <p>R$ 100,00</p>
+                            <button class="carrinho-botao">Remover produto</button>
+                        </div>
+                    </li> -->
+                </ul>
+                <div class="info-final-carrinho">
+                    <div class="info-carrinho quantidade-carrinho">
+                        <span>Quantidade:</span> 
+                        <span>0</span>        
+                    </div>
+                    <div class="info-carrinho total-carrinho">
+                        <span>Total:</span>
+                        <span>R$ 0,00</span>                
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+</body>
+
+</html>

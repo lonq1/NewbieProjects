@@ -1,0 +1,11 @@
+body,header,figure,img,nav,a,main,section,ul,li,h2,p,button,aside,form,input,div,h3 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
